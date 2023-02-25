@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{E0568669-E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{43E45ECF-040F-4BEA-8965-CD32CAEC0E49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleCycleCheck", "SingleCycleCheck\SingleCycleCheck.csproj", "{14E30928-015D-431A-ADDC-A5AF0F7FAF4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleCycleCheck", "SingleCycleCheck\SingleCycleCheck.csproj", "{14E30928-015D-431A-ADDC-A5AF0F7FAF4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreadthFirstSearch", "BreadthFirstSearch\BreadthFirstSearch.csproj", "{71856D9C-F694-4E09-9961-A626136E9DCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{14E30928-015D-431A-ADDC-A5AF0F7FAF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14E30928-015D-431A-ADDC-A5AF0F7FAF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14E30928-015D-431A-ADDC-A5AF0F7FAF4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71856D9C-F694-4E09-9961-A626136E9DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71856D9C-F694-4E09-9961-A626136E9DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71856D9C-F694-4E09-9961-A626136E9DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71856D9C-F694-4E09-9961-A626136E9DCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{EF7BEF09-1C2B-4939-BB6B-77F25A5FD55D} = {E0568669-EDF5-4B09-BAB5-42BAAA2B284E}
 		{14E30928-015D-431A-ADDC-A5AF0F7FAF4B} = {43E45ECF-040F-4BEA-8965-CD32CAEC0E49}
+		{71856D9C-F694-4E09-9961-A626136E9DCF} = {43E45ECF-040F-4BEA-8965-CD32CAEC0E49}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E3B2036F-83BC-422F-BC7F-8E98559C2AFA}
