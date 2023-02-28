@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Medium", "Medium", "{43E45E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleCycleCheck", "SingleCycleCheck\SingleCycleCheck.csproj", "{14E30928-015D-431A-ADDC-A5AF0F7FAF4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreadthFirstSearch", "BreadthFirstSearch\BreadthFirstSearch.csproj", "{71856D9C-F694-4E09-9961-A626136E9DCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreadthFirstSearch", "BreadthFirstSearch\BreadthFirstSearch.csproj", "{71856D9C-F694-4E09-9961-A626136E9DCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiverSizes", "RiverSizes\RiverSizes.csproj", "{F2B510D6-6557-4596-B3E4-340C4B6E0C9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{71856D9C-F694-4E09-9961-A626136E9DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71856D9C-F694-4E09-9961-A626136E9DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71856D9C-F694-4E09-9961-A626136E9DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B510D6-6557-4596-B3E4-340C4B6E0C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B510D6-6557-4596-B3E4-340C4B6E0C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B510D6-6557-4596-B3E4-340C4B6E0C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B510D6-6557-4596-B3E4-340C4B6E0C9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{EF7BEF09-1C2B-4939-BB6B-77F25A5FD55D} = {E0568669-EDF5-4B09-BAB5-42BAAA2B284E}
 		{14E30928-015D-431A-ADDC-A5AF0F7FAF4B} = {43E45ECF-040F-4BEA-8965-CD32CAEC0E49}
 		{71856D9C-F694-4E09-9961-A626136E9DCF} = {43E45ECF-040F-4BEA-8965-CD32CAEC0E49}
+		{F2B510D6-6557-4596-B3E4-340C4B6E0C9C} = {43E45ECF-040F-4BEA-8965-CD32CAEC0E49}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E3B2036F-83BC-422F-BC7F-8E98559C2AFA}
