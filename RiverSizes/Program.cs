@@ -39,9 +39,9 @@ namespace RiverSizes
                 {
                     if (visitedMatrix[row,col])
                         continue;
+                    visitedMatrix[row, col] = true;
                     if (matrix[row,col] == 1)
                     {
-                        visitedMatrix[row, col] = true;
                         coordOfSameRiver.Push(new int[2] { row,col});
                         ret.Add(ComputeSizeOfCurrentRiver(matrix,coordOfSameRiver,visitedMatrix));
                     }
