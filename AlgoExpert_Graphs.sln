@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleCycleCheck", "SingleC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BreadthFirstSearch", "BreadthFirstSearch\BreadthFirstSearch.csproj", "{71856D9C-F694-4E09-9961-A626136E9DCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiverSizes", "RiverSizes\RiverSizes.csproj", "{F2B510D6-6557-4596-B3E4-340C4B6E0C9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiverSizes", "RiverSizes\RiverSizes.csproj", "{F2B510D6-6557-4596-B3E4-340C4B6E0C9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CycleInGraph", "CycleInGraph\CycleInGraph.csproj", "{BCB68DBB-2ABD-44EC-8E9A-4402C820460D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CycleInGraph", "CycleInGraph\CycleInGraph.csproj", "{BCB68DBB-2ABD-44EC-8E9A-4402C820460D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoungestCommonAncestor", "YoungestCommonAncestor\YoungestCommonAncestor.csproj", "{D0B12273-3C68-44B9-9123-32C8DAA40C30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{BCB68DBB-2ABD-44EC-8E9A-4402C820460D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCB68DBB-2ABD-44EC-8E9A-4402C820460D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCB68DBB-2ABD-44EC-8E9A-4402C820460D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B12273-3C68-44B9-9123-32C8DAA40C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B12273-3C68-44B9-9123-32C8DAA40C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B12273-3C68-44B9-9123-32C8DAA40C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B12273-3C68-44B9-9123-32C8DAA40C30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{71856D9C-F694-4E09-9961-A626136E9DCF} = {43E45ECF-040F-4BEA-8965-CD32CAEC0E49}
 		{F2B510D6-6557-4596-B3E4-340C4B6E0C9C} = {43E45ECF-040F-4BEA-8965-CD32CAEC0E49}
 		{BCB68DBB-2ABD-44EC-8E9A-4402C820460D} = {43E45ECF-040F-4BEA-8965-CD32CAEC0E49}
+		{D0B12273-3C68-44B9-9123-32C8DAA40C30} = {43E45ECF-040F-4BEA-8965-CD32CAEC0E49}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E3B2036F-83BC-422F-BC7F-8E98559C2AFA}
