@@ -10,9 +10,9 @@ namespace Remove_Islands
             int[][] matrix = new int[][] {new int[] { 1, 0, 0, 0, 0, 0},
                                           new int[] { 0, 1, 0, 1, 1, 1},
                                           new int[] { 0, 0, 1, 0, 1, 0},
-                                          new int[]{ 1, 1, 0, 0, 1, 0},
-                                          new int[]{ 1, 0, 1, 1, 0, 0},
-                                          new int[]{ 1, 0, 0, 0, 0, 1}};
+                                          new int[] { 1, 1, 0, 0, 1, 0},
+                                          new int[] { 1, 0, 1, 1, 0, 0},
+                                          new int[] { 1, 0, 0, 0, 0, 1}};
 
 
             Console.WriteLine("The input matrix is:");
@@ -37,10 +37,5 @@ namespace Remove_Islands
             // Write your code here.
             return new int[][] { };
         }
-
-        //public static int[] GetRow(int[][] mat, int rowNumber)
-        //{ 
-            
-        //}
     }
 }
