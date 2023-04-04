@@ -74,7 +74,7 @@ namespace Remove_Islands
 
             return matrix;
         }
-
+        //Depth-first search to find 1's which cannot be an island
         public static void DFS(int[][] matrix, int row, int col, bool[,] notIslands)
         {
             if (matrix[row][col] == 0 || notIslands[row,col] == true)
